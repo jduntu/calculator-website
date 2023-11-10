@@ -1,0 +1,45 @@
+body{
+	box-sizing: border-box;
+	margin: 0px;
+	background: #2196f3;
+	color:white;
+
+}
+
+.container{
+	max-width: 650px;
+	margin: auto;
+	padding: 2%;
+	background: white;
+	margin-top: 10%;
+
+}
+
+.display{
+	text-align: center;
+
+}
+
+.display input{
+	height: 80px;
+	width: 100%;
+	background-color: rgb(15, 14, 14);
+	color: #fff;
+	font font-family: arial;
+	text-align: center;
+}
+
+
+.keys{
+	display: grid;
+	grid-template-columns:repeat(4, 1fr);
+	grid-gap: 4px;
+	margin: 2%;
+}
+
+
+.keys button{
+	padding: 4%;
+	cursor: pointer;
+	
+}
